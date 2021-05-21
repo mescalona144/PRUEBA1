@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción</title>
+    <link rel="stylesheet" href="inscripcion.css">
+</head>
+<body>
+    <header>
+        <h1>Ana Salazar</h1>
+        <h2>Makeup Artist</h2>
+    </header>
+    <nav>
+        <a href="Inicio">Inicio</a>
+        <a href="Sobre Nosotros">Sobre Nosotros</a>
+        <a href="Promociones">Promociones</a>
+        <a href="Ubicación">Ubicación</a>
+    </nav>
+    <main>
+        <h1>Bienvenidas</h1>
+        <p>A continuación, se te presentará una serie de campos que deberás llenar en su totalidad</p>
+<main role="main">
+   <h2 id="Formulario">Formulario de Consultas</h2>
+  <form action="enviar.php" method="post">
+
+        <br>
+        <label for="nombres">Nombres:</label>
+        <br>
+        <input type="text" name="nombres" placeholder="Ej.Mary Angélica" required>
+        <br>
+        <br>
+
+        <label for="apellidos">Apellidos:</label>
+        <br>
+        <input type="text" name="apellidos" placeholder="Ej. López" required>
+        <br>
+        <br>
+
+        <label for="documento">Documento</label>
+        <input type="text" name="numero" placeholder="Ej. DNI">
+        <br>
+        <br>
+
+        <label for="text">Teléfono:</label>
+        <input type="tel" name="telefono" placeholder="Ej.(+54)115405932" required>
+        <br>
+        <br>
+
+        <label for="text">País de residencia</label>
+        <input type="text" name="pais" placeholder="Ej.Argentina">
+        <br>
+        <br>
+
+        <label for="text">Correo electrónico</label>
+        <input type="email" name="email" placeholder="Ej. dominio@gmail.com" required>
+        <br><br>
+
+        <p>Expectativas ante el curso:</p>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Deje su mensaje aquí"></textarea>
+      
+       
+       <br>
+       <br>
+        <input type="submit" value="ENVIAR" id="btn">
+
+  </form>
+        
+    </main>
+    <footer>
+        &copy; 2021 Ana Salazar - Todos los derechos reservados.
+    </footer>
+    
+</body>
+</html>
+<!--
+<label for="">Nombres:</label>
+        <input type="text" name="nombres" placeholder="Ej. Ana">
+        
+        <br>
+        
+        <label for="">Apellidos:</label>
+        <input type="text" name="apellidos" placeholder="Ej. Lopez">
+        
+        <br>
+        
+        <label for="">Documento:</label>
+        <input type="text" name="documento" placeholder="Ej. DNI: 000000">
+
+        <br>
+
+        <label for="">Correo electrónico:</label>
+        <input type="email" name="correo" placeholder="Ej. dominio@gmail.com" required>
+        
+        <br>
+        
+        <label for="">Teléfonos:</label>
+        <input type="tel" name="telefono" placeholder="Ej. (011)4444-1234" >
+        size="10" 
+        
+        <br>
+        
+        <label for="">Edad: (mayores de 18)</label>
+        <input type="number" name="edad" value="18" min="18" max="65">
+       
+        <br>
+        <textarea name="mensaje" id="mensaje" placeholder="Dejenos su mensaje"></textarea>
+        <br>
+        <br>
+        <input type="submit" name="enviar" value="Enviar">
+      -->
